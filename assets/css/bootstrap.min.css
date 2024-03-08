@@ -2008,13 +2008,13 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: var(--bs-body-color);
+  color: #fff;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   background-color: transparent;
   background-clip: padding-box;
-  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: var(--bs-border-width) solid #fff;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2029,9 +2029,9 @@ progress {
   cursor: pointer;
 }
 .form-control:focus {
-  color: var(--bs-body-color);
-  border-color: #777777;
-  border: 1px solid #777;
+  color: #fff;
+  border-color: #ffffff;
+  border: 1px solid #ffffff;
   outline: 0;
 }
 .form-control::-webkit-date-and-time-value {
@@ -3720,7 +3720,7 @@ fieldset:disabled .btn {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color: #fff;
   text-decoration: none;
   background: 0 0;
   border: 0;
@@ -3905,7 +3905,7 @@ fieldset:disabled .btn {
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-  color: var(--bs-navbar-active-color);
+  color: #fff;
 }
 .navbar-nav .dropdown-menu {
   position: static;
