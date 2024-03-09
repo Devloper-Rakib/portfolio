@@ -210,7 +210,7 @@
 }
 .section_header::before{
   content: "";
-      background-image: url('./assets/images/bgImage1.jpg');
+      background-image: url('/assets/images/bgImage1.jpg');
       
       background-size: cover;
       position: absolute;
