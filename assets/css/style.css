@@ -1,240 +1,38 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");/* Lato font */.lato-thin{font-family:"Lato",sans-serif;font-weight:100;font-style:normal;}.lato-light{font-family:"Lato",sans-serif;font-weight:300;font-style:normal;}.lato-regular{font-family:"Lato",sans-serif;font-weight:400;font-style:normal;}.lato-bold{font-family:"Lato",sans-serif;font-weight:700;font-style:normal;}.lato-black{font-family:"Lato",sans-serif;font-weight:900;font-style:normal;}.lato-thin-italic{font-family:"Lato",sans-serif;font-weight:100;font-style:italic;}.lato-light-italic{font-family:"Lato",sans-serif;font-weight:300;font-style:italic;}.lato-regular-italic{font-family:"Lato",sans-serif;font-weight:400;font-style:italic;}.lato-bold-italic{font-family:"Lato",sans-serif;font-weight:700;font-style:italic;}.lato-black-italic{font-family:"Lato",sans-serif;font-weight:900;font-style:italic;}/*ArvoFont*/.arvo-regular{font-family:"Arvo",serif;font-weight:400;font-style:normal;}.arvo-bold{font-family:"Arvo",serif;font-weight:700;font-style:normal;}.arvo-regular-italic{font-family:"Arvo",serif;font-weight:400;font-style:italic;}.arvo-bold-italic{font-family:"Arvo",serif;font-weight:700;font-style:italic;}/*Poppins*/.poppins-thin{font-family:"Poppins",sans-serif;font-weight:100;font-style:normal;}.poppins-extralight{font-family:"Poppins",sans-serif;font-weight:200;font-style:normal;}.poppins-light{font-family:"Poppins",sans-serif;font-weight:300;font-style:normal;}.poppins-regular{font-family:"Poppins",sans-serif;font-weight:400;font-style:normal;}.poppins-medium{font-family:"Poppins",sans-serif;font-weight:500;font-style:normal;}.poppins-semibold{font-family:"Poppins",sans-serif;font-weight:600;font-style:normal;}.poppins-bold{font-family:"Poppins",sans-serif;font-weight:700;font-style:normal;}.poppins-extrabold{font-family:"Poppins",sans-serif;font-weight:800;font-style:normal;}.poppins-black{font-family:"Poppins",sans-serif;font-weight:900;font-style:normal;}.poppins-thin-italic{font-family:"Poppins",sans-serif;font-weight:100;font-style:italic;}.poppins-extralight-italic{font-family:"Poppins",sans-serif;font-weight:200;font-style:italic;}.poppins-light-italic{font-family:"Poppins",sans-serif;font-weight:300;font-style:italic;}.poppins-regular-italic{font-family:"Poppins",sans-serif;font-weight:400;font-style:italic;}.poppins-medium-italic{font-family:"Poppins",sans-serif;font-weight:500;font-style:italic;}.poppins-semibold-italic{font-family:"Poppins",sans-serif;font-weight:600;font-style:italic;}.poppins-bold-italic{font-family:"Poppins",sans-serif;font-weight:700;font-style:italic;}.poppins-extrabold-italic{font-family:"Poppins",sans-serif;font-weight:800;font-style:italic;}.poppins-black-italic{font-family:"Poppins",sans-serif;font-weight:900;font-style:italic;}
 
-/* Lato font */
-.lato-thin {
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+.text_primary{
+  color : rgb(0,167,157);
 }
 
-.lato-light {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+.text_primary2{
+  color : rgb(0,255,166);
 }
 
-.lato-regular {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+nav{
+  backdrop-filter: blur(5px);
 }
 
-.lato-bold {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+nav form{
+  max-width: 225px;
 }
-
-.lato-black {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.lato-thin-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.lato-light-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.lato-regular-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.lato-bold-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.lato-black-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-/* Arvo Font */
-.arvo-regular {
-  font-family: "Arvo", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.arvo-bold {
-  font-family: "Arvo", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.arvo-regular-italic {
-  font-family: "Arvo", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.arvo-bold-italic {
-  font-family: "Arvo", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-/* Poppins */
-.poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.poppins-extralight {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-extrabold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.poppins-black {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.poppins-thin-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.poppins-extralight-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.poppins-light-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.poppins-medium-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.poppins-semibold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.poppins-bold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.poppins-extrabold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.poppins-black-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-/* button:focus{
-    box-shadow: none !important;
-    border: none !important;
-} */
-
-
-/* Header Section */
 .section_header{
-  padding-top: 85px;
-  position: relative;
-  background: #000000;
-}
-.section_header::before{
-  content: "";
-      background-image: url('/assets/images/bgImage1.jpg');
-      background-attachment: fixed;
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.2;
-  /* background-color: rgba(0, 0, 0, 0.377); */
-  /* -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blurbrightness(5%);
-  backdrop-filter: blur(5px); */
-
-}
-header{
-  position: relative;
-
+  background-image: url(/assets/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
-.header-bg{
-  backdrop-filter: blur(100px);
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--bs_primary);
+  opacity: 1; /* Firefox */
 }
 
-
-.header_image{
-  /* background: url("/assets/images/image-2.png") no-repeat center; */
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--bs_primary);
 }
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--bs_primary);
+}
+
+/* text color : rgb(0,167,157) */
