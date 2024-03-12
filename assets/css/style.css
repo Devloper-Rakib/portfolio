@@ -211,7 +211,7 @@
 .section_header::before{
   content: "";
       background-image: url('/assets/images/bgImage1.jpg');
-      
+      background-attachment: fixed;
       background-size: cover;
       position: absolute;
       top: 0px;
@@ -232,4 +232,9 @@ header{
 
 .header-bg{
   backdrop-filter: blur(100px);
+}
+
+
+.header_image{
+  /* background: url("/assets/images/image-2.png") no-repeat center; */
 }
