@@ -47,3 +47,9 @@ nav form{
   background-size: contain;
   
 }
+
+
+/* About Section */
+#about{
+  background-color: rgba(0,167,157, 0.05);
+}
