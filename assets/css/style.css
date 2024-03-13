@@ -17,7 +17,7 @@ nav form{
   max-width: 225px;
 }
 .section_header{
-  background-image: url(/assets/images/header_bg.png);
+  background-image: url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -41,7 +41,7 @@ nav form{
 
 
 .Counter_bar .card{
-  background-image: url(/assets/images/counter_bg2.png);
+  background-image: url(../images/counter_bg2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
