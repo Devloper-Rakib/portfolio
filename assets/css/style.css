@@ -36,3 +36,14 @@ nav form{
 }
 
 /* text color : rgb(0,167,157) */
+
+
+
+
+.Counter_bar .card{
+  background-image: url(/assets/images/counter_bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  
+}
