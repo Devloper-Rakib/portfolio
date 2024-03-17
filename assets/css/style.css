@@ -39,13 +39,18 @@ nav form{
   color: var(--bs_primary);
 }
 
-/* text color : rgb(0,167,157) */
+
 
 
 
 /* heading */
 .hero_name{
   font-size: 5rem;
+}
+
+.media_link a i:hover{
+  color: black;
+  transition: color .2s ease;
 }
 
 
@@ -60,39 +65,15 @@ nav form{
 
 
 /* Projects */
-
-.project-cards .project :nth-of-type(even){
-  /* background: red; */
-
+#projects_row:nth-child(2){
+ display: flex;
 }
-
-.project .card{
-  /* position: relative; */
-  overflow: hidden;
-  transition: .5s;
+#projects_row:nth-of-type(2){
+ display: flex;
+ margin-top: 50px !important;
 }
 
 
-/* .project .card::before{
-  position:absolute;
-  content: "";
-  top: -100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: .5s;
-  background-color: rgba(0, 167, 156, 0.6);
-  backdrop-filter: blur(2px);
-  z-index: 2;
-}
-
-.project .card:hover::before{
-  top: 0;
-}
-
-.project .card::before:hover{
-  
-} */
 
 /* About Section */
 #about{
